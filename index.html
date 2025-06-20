@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEM in Med</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="https://i.imgur.com/BOhZvml.png">
+    <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script defer src="app.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="https://i.imgur.com/Skx5dh7.png" alt="STEM in Medicine Logo" class="logo-img">
+                <span class="logo-text">STEM in Med</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button id="login">Sign in</button>
+                <button id="register">Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="text-content">
+                <h1>Empowering Future Medical Innovators</h1>
+                <p>STEM in Med is a non-profit dedicated to fostering innovation at the intersection of science, technology, engineering, and medicine.</p>
+                <button class="primary-button">See Features</button>
+                <button class="secondary-button">Pricing</button>
+            </div>
+            <div class="image-content">
+                <img src="hero-image.png" alt="Innovation in Medicine">
+            </div>
+        </section>
+
+        <!-- Trusted By Section -->
+        <section class="trusted-by">
+            <h2>Trusted By Future Innovators Worldwide</h2>
+            <div class="logos-container">
+                <img src="https://i.imgur.com/abc123.png" alt="Partner 1">
+                <img src="https://i.imgur.com/def456.png" alt="Partner 2">
+                <img src="https://i.imgur.com/ghi789.png" alt="Partner 3">
+            </div>
+        </section>
+
+        <!-- Programs Preview Section -->
+        <section class="digital-services">
+            <h2>Explore Our Programs</h2>
+            <div class="digital-container">
+                <div class="digital-card">
+                    <div class="img-container">
+                        <img src="https://i.imgur.com/O7KGAV7.png" alt="Telemedicine">
+                    </div>
+                    <div class="text-container">
+                        <h3>Telemedicine Platforms</h3>
+                        <p>Remote healthcare solutions connecting doctors with patients worldwide.</p>
+                    </div>
+                </div>
+                <div class="digital-card">
+                    <div class="img-container">
+                        <img src="https://i.imgur.com/E916Bss.png" alt="AI Diagnostics">
+                    </div>
+                    <div class="text-container">
+                        <h3>AI-Powered Diagnostics</h3>
+                        <p>Advanced AI algorithms for early detection and accurate diagnosis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <h2>Impact at a Glance</h2>
+            <div class="stats-container">
+                <div class="stat-box">
+                    <h3>500+</h3>
+                    <p>Students Impacted</p>
+                </div>
+                <div class="stat-box">
+                    <h3>20+</h3>
+                    <p>Workshops Conducted</p>
+                </div>
+                <div class="stat-box">
+                    <h3>10+</h3>
+                    <p>Healthcare Partners</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <p>"STEM in Med helped me discover my passion for biomedical engineering!"</p>
+                    <h4>- Anika S., Student</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Amazing programs with real-world impact!"</p>
+                    <h4>- Dr. Patel, Mentor</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <h2>Ready to Join the Future of Medicine?</h2>
+            <a href="contact.html" class="primary-button">Get Involved</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 STEM in Med. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
